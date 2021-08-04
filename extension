@@ -1,0 +1,4 @@
+file = ['abc.py,']
+file1 = [input("Enter a file name:\n")]
+file.extend(file1)
+print(f"The extension of th file is :{file} ")
